@@ -4,7 +4,8 @@ if [ ! -e ./lemon-parser/lemon ]; then
     cc ./lemon-parser/lemon.c -o ./lemon-parser/lemon
 fi
 
-rm -rf ./out/grammar
+rm -rf ./out
+mkdir ./out
 mkdir ./out/grammar
 
 ./lemon-parser/lemon ./src/gram.y
