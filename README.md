@@ -4,6 +4,13 @@
 This is a useful example to learn the basics of the Lemon parser with a basic calculator.
 The aim is to take a mathematical expression as input, analyze it with Lemon, and return the result.
 
+## Features
+The calculator supports the following symbols and operators:
+- Basic math operators: `+`, `-`, `*`, `/`, `^`, `%`
+- Parentheses: `()`
+- Goniometric function: `sin()`, `con()`, `tan()`
+
+
 ## Example
 First, compile the project by running: 
 ```
